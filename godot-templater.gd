@@ -14,6 +14,9 @@ var folders:Array[String] = [
 
 func _run() -> void:
 	_create_folders(folders)
+	var fs = get_editor_interface().get_resource_filesystem()
+	fs.scan()
+	
 
 func _create_folders(folders:Array[String]):
 	for folder in folders:
