@@ -8,7 +8,8 @@ var folders:Array[String] = [
 	"addons",
 	"assets",
 	"docs",
-	"components"
+	"components",
+	"resources",
 ]
 
 
